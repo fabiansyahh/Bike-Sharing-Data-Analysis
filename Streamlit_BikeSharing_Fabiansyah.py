@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the data
-biker_hour = pd.read_csv("C:\\Users\\fabia\\Downloads\\Bike-sharing-dataset\\hour.csv")
+biker_hour = pd.read_csv("hour.csv")
 
 # Preprocessing
 biker_hour['temp'] *= 41
